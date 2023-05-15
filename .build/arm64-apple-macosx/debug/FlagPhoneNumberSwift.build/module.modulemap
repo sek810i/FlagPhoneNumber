@@ -1,0 +1,4 @@
+module FlagPhoneNumberSwift {
+    header "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FlagPhoneNumberSwift-Swift.h"
+    requires objc
+}

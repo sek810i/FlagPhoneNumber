@@ -1,0 +1,20 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "443e17024d6a295ede7e91d3870fb257486017d2ea921f82b20e1fb56417a241"
+build_start_time: [1684151112, 539877891]
+build_end_time: [1684151112, 775884151]
+inputs:
+  ? "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/DerivedSources/resource_bundle_accessor.swift"
+  : [1684150524, 797052621]
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/FPNCountry.swift": [1684147394, 639151096]
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/FPNCountryListViewController.swift": [1684147394, 639291524]
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/FPNCountryPicker/FPNCountryPicker.swift": [1684147394, 639469385]
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/FPNCountryPicker/FPNCountryView.swift": [1684147394, 639572858]
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/FPNCountryPicker/FPNNibLoadingView.swift": [1684147394, 639666557]
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/FPNCountryRepository.swift": [1684147394, 639760494]
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/FPNTextField.swift": !private [1684151108, 263436794]
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/Helpers/Bundle+Extension.swift": !private [1684147394, 640256166]
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/Helpers/FPNCountryCode.swift": [1684147394, 640343666]
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/Helpers/FPNFormat.swift": [1684147394, 640415430]
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/Helpers/FPNOBJCCountryKey.swift": [1684147394, 640528202]
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/Helpers/FPNTextFieldDelegate.swift": [1684147394, 640609264]
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/Helpers/FPNUtils.swift": [1684147394, 640680789]

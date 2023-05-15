@@ -1,0 +1,89 @@
+{
+  "": {
+    "swift-dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/master.swiftdeps"
+  },
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/FPNCountry.swift": {
+    "dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNCountry.d",
+    "object": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNCountry.swift.o",
+    "swiftmodule": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNCountry~partial.swiftmodule",
+    "swift-dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNCountry.swiftdeps"
+  },
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/FPNCountryListViewController.swift": {
+    "dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNCountryListViewController.d",
+    "object": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNCountryListViewController.swift.o",
+    "swiftmodule": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNCountryListViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNCountryListViewController.swiftdeps"
+  },
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/FPNCountryPicker/FPNCountryPicker.swift": {
+    "dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNCountryPicker/FPNCountryPicker.d",
+    "object": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNCountryPicker/FPNCountryPicker.swift.o",
+    "swiftmodule": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNCountryPicker/FPNCountryPicker~partial.swiftmodule",
+    "swift-dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNCountryPicker/FPNCountryPicker.swiftdeps"
+  },
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/FPNCountryPicker/FPNCountryView.swift": {
+    "dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNCountryPicker/FPNCountryView.d",
+    "object": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNCountryPicker/FPNCountryView.swift.o",
+    "swiftmodule": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNCountryPicker/FPNCountryView~partial.swiftmodule",
+    "swift-dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNCountryPicker/FPNCountryView.swiftdeps"
+  },
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/FPNCountryPicker/FPNNibLoadingView.swift": {
+    "dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNCountryPicker/FPNNibLoadingView.d",
+    "object": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNCountryPicker/FPNNibLoadingView.swift.o",
+    "swiftmodule": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNCountryPicker/FPNNibLoadingView~partial.swiftmodule",
+    "swift-dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNCountryPicker/FPNNibLoadingView.swiftdeps"
+  },
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/FPNCountryRepository.swift": {
+    "dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNCountryRepository.d",
+    "object": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNCountryRepository.swift.o",
+    "swiftmodule": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNCountryRepository~partial.swiftmodule",
+    "swift-dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNCountryRepository.swiftdeps"
+  },
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/FPNTextField.swift": {
+    "dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNTextField.d",
+    "object": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNTextField.swift.o",
+    "swiftmodule": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNTextField~partial.swiftmodule",
+    "swift-dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/FPNTextField.swiftdeps"
+  },
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/Helpers/Bundle+Extension.swift": {
+    "dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/Helpers/Bundle+Extension.d",
+    "object": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/Helpers/Bundle+Extension.swift.o",
+    "swiftmodule": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/Helpers/Bundle+Extension~partial.swiftmodule",
+    "swift-dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/Helpers/Bundle+Extension.swiftdeps"
+  },
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/Helpers/FPNCountryCode.swift": {
+    "dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/Helpers/FPNCountryCode.d",
+    "object": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/Helpers/FPNCountryCode.swift.o",
+    "swiftmodule": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/Helpers/FPNCountryCode~partial.swiftmodule",
+    "swift-dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/Helpers/FPNCountryCode.swiftdeps"
+  },
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/Helpers/FPNFormat.swift": {
+    "dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/Helpers/FPNFormat.d",
+    "object": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/Helpers/FPNFormat.swift.o",
+    "swiftmodule": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/Helpers/FPNFormat~partial.swiftmodule",
+    "swift-dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/Helpers/FPNFormat.swiftdeps"
+  },
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/Helpers/FPNOBJCCountryKey.swift": {
+    "dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/Helpers/FPNOBJCCountryKey.d",
+    "object": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/Helpers/FPNOBJCCountryKey.swift.o",
+    "swiftmodule": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/Helpers/FPNOBJCCountryKey~partial.swiftmodule",
+    "swift-dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/Helpers/FPNOBJCCountryKey.swiftdeps"
+  },
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/Helpers/FPNTextFieldDelegate.swift": {
+    "dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/Helpers/FPNTextFieldDelegate.d",
+    "object": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/Helpers/FPNTextFieldDelegate.swift.o",
+    "swiftmodule": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/Helpers/FPNTextFieldDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/Helpers/FPNTextFieldDelegate.swiftdeps"
+  },
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/Swift/Helpers/FPNUtils.swift": {
+    "dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/Helpers/FPNUtils.d",
+    "object": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/Helpers/FPNUtils.swift.o",
+    "swiftmodule": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/Helpers/FPNUtils~partial.swiftmodule",
+    "swift-dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/Helpers/FPNUtils.swiftdeps"
+  },
+  "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/resource_bundle_accessor.d",
+    "object": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/bogdan_o/GitHub/FlagPhoneNumber/.build/arm64-apple-macosx/debug/FlagPhoneNumberSwift.build/resource_bundle_accessor.swiftdeps"
+  }
+}

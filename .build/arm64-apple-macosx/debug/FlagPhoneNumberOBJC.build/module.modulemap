@@ -1,0 +1,4 @@
+module FlagPhoneNumberObjC {
+    umbrella "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/ObjC"
+    export *
+}

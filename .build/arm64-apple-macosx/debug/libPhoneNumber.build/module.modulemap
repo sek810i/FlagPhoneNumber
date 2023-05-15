@@ -1,0 +1,4 @@
+module libPhoneNumber {
+    umbrella "/Users/bogdan_o/GitHub/FlagPhoneNumber/Sources/libPhoneNumber"
+    export *
+}
