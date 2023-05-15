@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "FlagPhoneNumber",
-            targets: ["FlagPhoneNumberKit"]),
+            targets: ["FlagPhoneNumberKit", "FlagPhoneNumberObjC"]),
     ],
     dependencies: [
         //        .package(name: "DataModels", path: "../datamodels"),
