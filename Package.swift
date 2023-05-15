@@ -36,7 +36,9 @@ let package = Package(
             name: "FlagPhoneNumberKit",
             dependencies: ["FlagPhoneNumberObjC"],
             path: "Sources/Swift",
-            resources: [.copy("Resources")]
+            resources: [.copy("Resources/countryCodes.json"),
+                        .copy("Resources/FlagKit.xcassets"),
+                        .copy("Resources/FPNCountryView.xib")]
         ),
 
         
