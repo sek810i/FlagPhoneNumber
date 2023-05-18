@@ -9,17 +9,9 @@ let package = Package(
     products: [
         .library(
             name: "FlagPhoneNumber",
-            targets: ["FlagPhoneNumberKit", "FlagPhoneNumberObjC"]),
+            targets: ["FlagPhoneNumber"]),
     ],
-    dependencies: [
-        //        .package(name: "DataModels", path: "../datamodels"),
-        //        .package(name: "Extensions", path: "../extensions"),
-        //        .package(url: "https://github.com/marmelroy/Zip.git", .upToNextMinor(from: "2.1.2")),
-        //        .package(url: "https://github.com/SwiftyBeaver/SwiftyBeaver.git", .upToNextMajor(from: "2.0.0")),
-        //        .package(url: "https://github.com/SnapKit/SnapKit.git", .upToNextMajor(from: "5.6.0")),
-        //        .package(url: "https://github.com/evgenyneu/keychain-swift.git", from: "20.0.0"),
-        //        .package(url: "https://github.com/SwiftKickMobile/SwiftMessages.git", from: "9.0.6")
-    ],
+    dependencies: [],
     targets: [
         .target(
             name: "FlagPhoneNumberObjC",
@@ -33,7 +25,7 @@ let package = Package(
             cSettings: [.headerSearchPath("FlagPhoneNumber.h")]
         ),
         .target(
-            name: "FlagPhoneNumberKit",
+            name: "FlagPhoneNumber",
             dependencies: ["FlagPhoneNumberObjC"],
             path: "Sources/Swift",
             resources: [.copy("Resources/countryCodes.json"),
