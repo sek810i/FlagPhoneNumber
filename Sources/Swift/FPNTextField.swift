@@ -24,7 +24,7 @@ open class FPNTextField: UITextField {
 
 	/// The size of the leftView
 	private var leftViewSize: CGSize {
-		let width = flagButtonSize.width + getWidth(text: phoneCodeTextField.text!)
+        let width = flagButtonSize.width + getWidth(text: phoneCodeTextField.text!) + 24
 		let height = bounds.height
 
 		return CGSize(width: width, height: height)
@@ -37,12 +37,15 @@ open class FPNTextField: UITextField {
 	private var formatter: NBAsYouTypeFormatter?
 
 	open var flagButton: UIButton = UIButton()
+    public var arrowImageView: UIImageView = UIImageView()
 
-	open override var font: UIFont? {
-		didSet {
-			phoneCodeTextField.font = font
-		}
-	}
+//	open override var font: UIFont?
+    
+    open var codeFont: UIFont? {
+        didSet {
+            phoneCodeTextField.font = font
+        }
+    }
 
 	open override var textColor: UIColor? {
 		didSet {
@@ -118,6 +121,7 @@ open class FPNTextField: UITextField {
 
 		setupFlagButton()
 		setupPhoneCodeTextField()
+        setupArrowImageView()
 		setupLeftView()
 
 		keyboardType = .numberPad
@@ -131,17 +135,21 @@ open class FPNTextField: UITextField {
 			setFlag(countryCode: FPNCountryCode.FR)
 		}
 	}
+    
+    private func setupArrowImageView() {
+        arrowImageView.contentMode = .scaleAspectFit
+        arrowImageView.translatesAutoresizingMaskIntoConstraints = false
+    }
 
 	private func setupFlagButton() {
 		flagButton.imageView?.contentMode = .scaleAspectFit
 		flagButton.accessibilityLabel = "flagButton"
-		flagButton.addTarget(self, action: #selector(displayCountries), for: .touchUpInside)
 		flagButton.translatesAutoresizingMaskIntoConstraints = false
 		flagButton.imageEdgeInsets = UIEdgeInsets(top: 0, left: 5, bottom: 0, right: 5)
 	}
 
 	private func setupPhoneCodeTextField() {
-		phoneCodeTextField.font = font
+		phoneCodeTextField.font = codeFont
 		phoneCodeTextField.isUserInteractionEnabled = false
 		phoneCodeTextField.translatesAutoresizingMaskIntoConstraints = false
 	}
@@ -157,6 +165,11 @@ open class FPNTextField: UITextField {
 
 		leftView?.addSubview(flagButton)
 		leftView?.addSubview(phoneCodeTextField)
+        leftView?.addSubview(arrowImageView)
+        let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(displayCountries))
+        tapRecognizer.numberOfTapsRequired = 1
+        leftView?.addGestureRecognizer(tapRecognizer)
+        leftView?.isUserInteractionEnabled = true
 
 		flagWidthConstraint = NSLayoutConstraint(item: flagButton, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 0, constant: flagButtonSize.width)
 		flagHeightConstraint = NSLayoutConstraint(item: flagButton, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 0, constant: flagButtonSize.height)
@@ -165,11 +178,20 @@ open class FPNTextField: UITextField {
 		flagHeightConstraint?.isActive = true
 
 		NSLayoutConstraint(item: flagButton, attribute: .centerY, relatedBy: .equal, toItem: leftView, attribute: .centerY, multiplier: 1, constant: 0).isActive = true
+        NSLayoutConstraint(item: flagButton, attribute: .centerY, relatedBy: .equal, toItem: leftView, attribute: .centerY, multiplier: 1, constant: 0).isActive = true
+        NSLayoutConstraint(item: flagButton, attribute: .leading, relatedBy: .equal, toItem: leftView, attribute: .leading, multiplier: 1, constant: 0).isActive = true
 
         NSLayoutConstraint(item: phoneCodeTextField, attribute: .leading, relatedBy: .equal, toItem: flagButton, attribute: .trailing, multiplier: 1, constant: 0).isActive = true
-		NSLayoutConstraint(item: phoneCodeTextField, attribute: .trailing, relatedBy: .equal, toItem: leftView, attribute: .trailing, multiplier: 1, constant: 0).isActive = true
+//		NSLayoutConstraint(item: phoneCodeTextField, attribute: .trailing, relatedBy: .equal, toItem: leftView, attribute: .trailing, multiplier: 1, constant: 0).isActive = true
 		NSLayoutConstraint(item: phoneCodeTextField, attribute: .top, relatedBy: .equal, toItem: leftView, attribute: .top, multiplier: 1, constant: 0).isActive = true
 		NSLayoutConstraint(item: phoneCodeTextField, attribute: .bottom, relatedBy: .equal, toItem: leftView, attribute: .bottom, multiplier: 1, constant: 0).isActive = true
+        
+        
+        NSLayoutConstraint(item: arrowImageView, attribute: .centerY, relatedBy: .equal, toItem: leftView, attribute: .centerY, multiplier: 1, constant: 0).isActive = true
+        NSLayoutConstraint(item: arrowImageView, attribute: .leading, relatedBy: .equal, toItem: phoneCodeTextField, attribute: .trailing, multiplier: 1, constant: 0).isActive = true
+        NSLayoutConstraint(item: arrowImageView, attribute: .trailing, relatedBy: .equal, toItem: leftView, attribute: .trailing, multiplier: 1, constant: 0).isActive = true
+        NSLayoutConstraint(item: arrowImageView, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 0, constant: 24).isActive = true
+        NSLayoutConstraint(item: arrowImageView, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 0, constant: 24).isActive = true
 	}
 
 	open override func updateConstraints() {
@@ -393,7 +415,7 @@ open class FPNTextField: UITextField {
 
 		if let phoneCode = selectedCountry?.phoneCode {
 			phoneCodeTextField.text = phoneCode
-            padding = UIEdgeInsets(top: 0, left: CGFloat(70 + (phoneCode.count-2) * 10), bottom: 0, right: 5)
+            padding = UIEdgeInsets(top: 0, left: leftViewSize.width + 8, bottom: 0, right: 5)
 		}
 
 		if hasPhoneNumberExample == true {
