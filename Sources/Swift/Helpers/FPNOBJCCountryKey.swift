@@ -246,6 +246,7 @@ import Foundation
 	case VG
 	case VI
 	case AX
+    case RP
 }
 
 public let FPNOBJCCountryCode: [FPNOBJCCountryKey: String] = [
@@ -486,5 +487,6 @@ public let FPNOBJCCountryCode: [FPNOBJCCountryKey: String] = [
 	FPNOBJCCountryKey.TC: "TC",
 	FPNOBJCCountryKey.VG: "VG",
 	FPNOBJCCountryKey.VI: "VI",
-	FPNOBJCCountryKey.AX: "AX"
+	FPNOBJCCountryKey.AX: "AX",
+    FPNOBJCCountryKey.RP: "RP"
 ]

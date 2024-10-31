@@ -1188,5 +1188,10 @@
  "name": "Zimbabwe",
  "dial_code": "+263",
  "code": "ZW"
+ },
+ {
+ "name": "Pridnestrovie",
+ "dial_code": "+373",
+ "code": "RP"
  }
  ]
