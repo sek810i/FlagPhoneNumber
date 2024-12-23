@@ -297,7 +297,15 @@ open class FPNTextField: UITextField {
 				text = validPhoneNumber.nationalNumber.stringValue
 			}
 			setFlag(countryCode: FPNCountryCode(rawValue: phoneUtil.getRegionCode(for: validPhoneNumber))!)
-		}
+        } else {
+            var nationalNumber: NSString?
+            phoneUtil.extractCountryCode(cleanedPhoneNumber, nationalNumber: &nationalNumber)
+            let code = cleanedPhoneNumber.replacingOccurrences(of: "\(nationalNumber ?? "")", with: "")
+            text = "\(nationalNumber ?? "")"
+            if let selectedCountry = countryRepository.countries.first(where: { $0.phoneCode == code })?.code {
+                setFlag(countryCode: selectedCountry)
+            }
+        }
 	}
 
 	/// Set the country image according to country code. Example "FR"
